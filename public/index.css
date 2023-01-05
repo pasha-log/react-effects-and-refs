@@ -1,0 +1,18 @@
+html,
+body {
+	height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background: linear-gradient(180deg, #445545 0%, #206c1e 100%);
+}
+
+body {
+	font-family: sans-serif;
+	color: white;
+	font-size: 2vw;
+	text-align: center;
+	padding: 1em;
+}
