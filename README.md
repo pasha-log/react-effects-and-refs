@@ -1,4 +1,6 @@
-# React Effects And Refs Exercise 
+# React Effects And Refs Exercise: Card Drawer
+
+<img src='./public/card-drawer.png' alt=''>
 
 ## Description: 
 
