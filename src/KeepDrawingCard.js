@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { v4 as uuid } from 'uuid';
 import axios from 'axios';
 import CreateCard from './Card';
+import "./Deck.css";
 
 const baseURL = 'https://deckofcardsapi.com/api/deck';
 let cardArray = []
@@ -55,9 +56,9 @@ const KeepDrawingCard = () => {
 			{remaining === 0 ? (
 				alert('Error: no cards remaining!')
 			) : (
-				<button onClick={() => toggleStart()}>{!start ? "Start Drawing" : "Stop Drawing"}</button>
+				<button className="toggler" onClick={() => toggleStart()}>{!start ? "Start Drawing" : "Stop Drawing"}</button>
 			)}
-			<div className="card-area">{cards.map((card) => <CreateCard cardSrc={card} id={uuid()} />)}</div>
+			<div className="Card-area-two">{cards.map((card) => <CreateCard cardSrc={card} id={uuid()} />)}</div>
 		</div>
 	);
 };
