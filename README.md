@@ -11,6 +11,7 @@ to stop. This application was made with the [Deck of Cards API](https://deckofca
 
 * React.js
 * Axios 
+* React Bootstrap
 
 ## Setup & Running
 
