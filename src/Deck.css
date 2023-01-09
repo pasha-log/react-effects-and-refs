@@ -1,3 +1,9 @@
+.Single-card-drawer-area, .Toggle-card-drawer-area {
+    flex: 1;
+    flex-direction: column;
+    margin: 10px;
+}
+
 .Card-area-one, .Card-area-two {
     display: grid;
     grid-template-columns: 1fr;
@@ -7,6 +13,7 @@
 	padding: 1.25em;
     text-align: center;
     margin-top: 5rem;
+    flex: 1;
 }
 
 .toggler, .card-drawer {

@@ -52,7 +52,7 @@ const KeepDrawingCard = () => {
 	}
 
 	return (
-		<div>
+		<div className='Toggle-card-drawer-area'>
 			{remaining === 0 ? (
 				alert('Error: no cards remaining!')
 			) : (

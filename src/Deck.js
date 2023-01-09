@@ -31,7 +31,7 @@ const DrawCard = () => {
 	}
 
 	return (
-		<div>
+		<div className='Single-card-drawer-area'>
 			{remaining === 0 ? (
 				alert('Error: no cards remaining!')
 			) : (
