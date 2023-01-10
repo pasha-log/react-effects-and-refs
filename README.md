@@ -4,6 +4,8 @@
 
 ## Description: 
 
+[Check it out](https://pasha-log.github.io/react-effects-and-refs/)
+
 You can either draw a card with a click of a button until you reach the end of the deck, or click another button to draw a card contiuously every second until you toggle it 
 to stop. This application was made with the [Deck of Cards API](https://deckofcardsapi.com/) and made possible with React's useState, useEffect, and useRef. 
 
