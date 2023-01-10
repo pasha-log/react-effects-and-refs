@@ -1,19 +1,18 @@
-import React from "react";
-import "./CardTable.css";
-import DrawCard from './Deck';
-import KeepDrawingCard from './KeepDrawingCard';
+import React from 'react';
+import './CardTable.css';
+import SingleCard from './SingleCard';
+import TimerCard from './TimerCard';
 
-/* Main component. Renders card lists for
- * playing cards and pokemon. */
+/* Main component. */
 function CardTable() {
-  return (
-    <div className="CardTable">
-      <main>
-        <DrawCard />
-        <KeepDrawingCard />
-      </main>
-    </div>
-  );
+	return (
+		<div className="CardTable">
+			<main>
+				<SingleCard />
+				<TimerCard />
+			</main>
+		</div>
+	);
 }
 
 export default CardTable;
